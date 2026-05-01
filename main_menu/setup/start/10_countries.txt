@@ -1595,7 +1595,9 @@ countries = {
 	MAI = {	#Mainz
 		own_control_core = {
 			mainz aschaffenburg miltenberg buchen tauberbischofsheim
-			hofgeismar bensheim
+			hofgeismar bensheim katzenelnbogen darmstadt kreuznach birkenfeld castellaun lichtenberg_veldenz
+			meisenheim usingen diez wetzlar worms heidelberg neustadt_an_der_haardt germersheim kaiserslautern
+			sinsheim landau_rhineland zweibrucken bitche pirmasens
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -35026,7 +35028,7 @@ countries = {
 
 	PAL = {	#The Palatinate
 		own_control_core = {
-			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+			#heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
 			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 		}
 
@@ -35440,7 +35442,7 @@ countries = {
 
 	KTZ = {  # Katzenelnbogen (North Germany)
 		own_control_core = {
-			katzenelnbogen darmstadt
+			#katzenelnbogen darmstadt
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -35454,7 +35456,7 @@ countries = {
 
 	NSW = {  # Nassau Weilburg (North Germany)
 		own_control_core = {
-			usingen
+			#usingen
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -35656,7 +35658,7 @@ countries = {
 
 	LDA = {  # Landau (South Germany)
 		own_control_core = {
-			landau_rhineland
+			#landau_rhineland
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -35673,8 +35675,8 @@ countries = {
 
 	VEL = {  # Veldenz (South Germany)
 		own_control_core = {
-			lichtenberg_veldenz
-			meisenheim
+			#lichtenberg_veldenz
+			#meisenheim
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -38206,7 +38208,7 @@ countries = {
 
 	WTZ = {	#Wetzlar
 		own_control_core = {
-			wetzlar
+			#wetzlar
 		}
 
 		starting_technology_level = 3
@@ -38247,7 +38249,7 @@ countries = {
 
 	DIE = {	#Diez
 		own_control_core = {
-			diez
+			#diez
 		}
 
 		starting_technology_level = 3
@@ -38315,7 +38317,7 @@ countries = {
 
 	WRM = {	#Worms
 		own_control_core = {
-			worms
+			#worms
 		}
 
 		starting_technology_level = 3
@@ -38352,7 +38354,7 @@ countries = {
 
 	ZWE = {	#Zweibrucken
 		own_control_core = {
-			zweibrucken bitche pirmasens
+			#zweibrucken bitche pirmasens
 		}
 
 		starting_technology_level = 3
@@ -38405,7 +38407,7 @@ countries = {
 
 	SPO = {	#Sponheim
 		own_control_core = {
-			kreuznach birkenfeld castellaun
+			#kreuznach birkenfeld castellaun
 		}
 
 		starting_technology_level = 3
