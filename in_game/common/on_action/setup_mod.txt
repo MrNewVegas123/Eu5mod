@@ -1,0 +1,56 @@
+on_game_start = {
+	on_actions = {
+		mod_adjust_france
+		mod_remove_asia
+	}
+}
+
+mod_adjust_france = {
+	effect = {
+		c:FRA = {
+			cancel_subject = c:FLA
+
+			add_truce_with = { target = c:FLA mutual = yes months = 180 }
+			add_truce_with = { target = c:HAI mutual = yes months = 180 }
+			add_truce_with = { target = c:BRB mutual = yes months = 180 }
+			add_truce_with = { target = c:LIE mutual = yes months = 180 }
+			add_truce_with = { target = c:HOL mutual = yes months = 180 }
+			add_truce_with = { target = c:GEL mutual = yes months = 180 }
+			add_truce_with = { target = c:UTR mutual = yes months = 180 }
+			add_truce_with = { target = c:LOO mutual = yes months = 180 }
+			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+		}
+
+		c:ENG = {
+
+			add_truce_with = { target = c:FLA mutual = yes months = 180 }
+			add_truce_with = { target = c:HAI mutual = yes months = 180 }
+			add_truce_with = { target = c:BRB mutual = yes months = 180 }
+			add_truce_with = { target = c:LIE mutual = yes months = 180 }
+			add_truce_with = { target = c:HOL mutual = yes months = 180 }
+			add_truce_with = { target = c:GEL mutual = yes months = 180 }
+			add_truce_with = { target = c:UTR mutual = yes months = 180 }
+			add_truce_with = { target = c:LOO mutual = yes months = 180 }
+			add_truce_with = { target = c:NAM mutual = yes months = 180 }
+
+		}
+
+
+
+
+		c:FLA = {
+			cancel_subject = c:NAM
+		}
+	}
+}
+
+mod_remove_asia = {
+	effect = {
+
+		sub_continent:east_asia = { mod_remove_and_disable_sub_continent = yes }
+		sub_continent:south_east_asia = { mod_remove_and_disable_sub_continent = yes }
+		sub_continent:pacific_islands = { mod_remove_and_disable_sub_continent = yes }
+	}
+
+}
+
