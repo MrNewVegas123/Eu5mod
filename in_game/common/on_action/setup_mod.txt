@@ -2,6 +2,7 @@ on_game_start = {
 	on_actions = {
 		mod_adjust_france
 		mod_remove_asia
+		mod_shatter_france
 	}
 }
 
@@ -44,6 +45,24 @@ mod_adjust_france = {
 	}
 }
 
+mod_shatter_france = {
+	effect = {
+		c:FRA = {
+			
+		}
+
+		c:ENG = {
+
+		}
+
+
+
+
+		c:FLA = {
+			cancel_subject = c:NAM
+		}
+	}
+}
 mod_remove_asia = {
 	effect = {
 

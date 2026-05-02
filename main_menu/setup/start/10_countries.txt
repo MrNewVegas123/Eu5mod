@@ -1589,6 +1589,11 @@ countries = {
 			altenkirchen gummersbach
 			hadamar
 			bergheim duren monchengladbach
+			kassel rotenburg eschwege frankenberg marburg alsfeld
+			giessen melsungen
+			ziegenhain
+			korbach
+			berleburg
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -10733,6 +10738,27 @@ countries = {
 			apt barcelonnette forcalquier sisteron
 			nice barjols castellane digne draguignan frejus grasse puget_theniers
 			cuneo
+			grenoble gap briancon pragelato
+			romans la_mure saint_marceilin 
+			mevouillon villars 
+			la_tour_du_pin 
+			faucigny sallanches #Barony of 	Faucigny
+			orange
+			avignon
+			nimes uzes melgueil
+			french_ales #S. Ales
+			valence die
+			condorcet
+			vienne
+			montpellier #Lordship of Montpellier
+			beziers agde
+			saint_pons
+			lodeve
+			narbonne
+			st_ambroix
+			viviers # C. de Viviers	
+			privas
+			tournon #S. de Tournon	
 		}
 		our_cores_conquered_by_others = {
 			avignon #Controlled by the Pope, but historically owned by Naples
@@ -10794,12 +10820,15 @@ countries = {
 			}
 		}
 
-		tolerated_cultures = {
+		accepted_cultures = {
 			vivaro_alpine
+			languedocien
+			arpitan
+			auvergnat
 		}
 
 		capital = marseille
-		country_rank = rank_county
+		country_rank = rank_duchy
 	}
 
 	PAD = {
@@ -10851,7 +10880,6 @@ countries = {
 			anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
 			corneto orte orvietano viterbo assisi narni rieti spoleto todi
 			benevento
-			avignon #France
 		}
 
 		include = "catholic_bishopric"
@@ -11426,8 +11454,7 @@ countries = {
 		own_control_core = {
 			bourg_en_bresse belley chambery gex saint_jean_de_maurienne
 			moutiers evian
-			bage thoire
-			vienne 
+			bage thoire 
 		}
 
 		starting_technology_level = 3
@@ -13520,7 +13547,7 @@ countries = {
 		}
 
 		our_cores_conquered_by_others = {
-			puigcerda prades montpellier perpignan
+			puigcerda prades perpignan
 			palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
 		}
 
@@ -13623,7 +13650,6 @@ countries = {
 			palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
 			puigcerda prades #County of Cerdanya
 			perpignan #County of Roselló
-			montpellier #Lordship of Montpellier
 		}
 
 		starting_technology_level = 3
@@ -14176,7 +14202,7 @@ countries = {
 			beauvais saint_quentin noyon la_rochelle
 			ribemont laon
 			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
-			bergerac montauban albi millau saint_pons beziers agde sauveterre_de_guyenne
+			bergerac montauban albi millau sauveterre_de_guyenne
 			figeac villefranche chaumont_vexin
 			bar_sur_seine
 			limeuil sarlat marmande montflanquin
@@ -14197,10 +14223,7 @@ countries = {
 			macon #C. de Macon
 			beaujeu perreux trevoux #S.de Beaujeu
 			lyon riverie #C. de Lyon
-			le_puy #C. du Velay
-			viviers # C. de Viviers
-			nimes uzes melgueil
-			french_ales #S. Ales
+			le_puy #C. du Velay	
 			chambon #B. de Combraille
 			chalons_champagne #C. de Chalon
 			reims #D. Reims
@@ -14214,13 +14237,12 @@ countries = {
 			chateauroux boussac #S. de Chateauroux
 
 			tarbes #C. Bigorre
-			lodeve #C. Lodeve
 
 			fenouillet toulouse verdun_sur_garonne villemur
 			meaux
 			provins
 			peyrusse entraigues st_affrique
-			allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+			allegre chalancon peyre chateauneuf_de_randon florac
 		}
 		own_control_integrated = {
 			#Appanages
@@ -15787,10 +15809,9 @@ countries = {
 	#Valentinois (Vassal, Fief Mouvant)
 	VLN = {
 		own_control_core = {
-			valence die privas montlaur condorcet
+			montlaur 
 
 			# own_control_integrated, but culture accepted
-			tournon #S. de Tournon
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -16932,49 +16953,6 @@ countries = {
 
 	#Narbonne
 	NRB = {
-		own_control_core = {
-			narbonne
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = nrb_amalric_iii_lara
-
-			ruler_term = { character = cas_pedro_manrique_lara start_date = 1192.1.1 end_date = 1202.1.1 regnal_number = 2 }
-			ruler_term = { character = nrb_amalric_i_lara start_date = 1202.1.1 end_date = 1270.12.1 regnal_number = 1 }
-			ruler_term = { character = nrb_aimeric_iv_lara start_date = 1270.12.1 end_date = 1298.10.1 regnal_number = 4 }
-			ruler_term = { character = nrb_amalric_ii_lara start_date = 1298.10.1 end_date = 1328.6.19 regnal_number = 2 }
-			ruler_term = { character = nrb_aimeric_v_lara start_date = 1328.6.19 end_date = 1336.6.1 regnal_number = 5 }
-			ruler_term = { character = nrb_amalric_iii_lara start_date = 1336.6.1 regnal_number = 3 }
-
-			regnal_numbers = {
-				#Lindoin = 1
-				name_alberic = 2
-				#Mayeul = 1
-				name_otto = 1
-				#Volverade = 1
-				#Matfred = 1
-				name_raymond = 2
-				name_berengar = 1
-				name_bernard = 1
-				name_peter = 2
-				name_aimeric = 5
-				name_ermengard = 1
-				name_amalric = 3
-			}
-
-			reforms = {
-				french_ducal_vassal_reform
-			}
-		}
-		tolerated_cultures = {
-			sephardi
-		}
-		capital = narbonne
 	}
 
 	#Orleans (Revolter) Becomes an appanage in 1344
@@ -17015,11 +16993,11 @@ countries = {
 	#Toulouse (Revolter)
 	TOU = {
 		our_cores_conquered_by_others = {
-			toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde lodeve melgueil
+			toulouse lisle_jourdain narbonne lavaur castelnaudary saint_pons beziers agde melgueil
 			nimes uzes french_ales castres rodez villefranche figeac cahors agen peyrusse entraigues peyre mende
 			lectoure montauban albi villemur lautrec verdun_sur_garonne montflanquin gourdon pamiers foix
 			mirepoix limoux carcassonne fenouillet montpellier chateauneuf_de_randon st_affrique millau 
-			florac st_ambroix
+			florac
 		}
 
 		starting_technology_level = 3
@@ -17103,98 +17081,10 @@ countries = {
 
 	#Dauphine
 	DAU = {
-		own_control_core = {
-			grenoble gap briancon pragelato
-			romans la_mure saint_marceilin 
-			mevouillon villars 
-			la_tour_du_pin 
-			faucigny sallanches #Barony of 	Faucigny
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = dau_humbert_ii_de_la_tour
-
-			ruler_term = { character = dau_guigues_i_albon start_date = 1034.1.1 end_date = 1075.1.1 regnal_number = 1 }
-			ruler_term = { character = dau_guigues_ii_albon start_date = 1075.1.1 end_date = 1079.1.1 regnal_number = 2 }
-			ruler_term = { character = dau_guigues_iii_albon start_date = 1079.1.1 end_date = 1132.1.1 regnal_number = 3 }
-			ruler_term = { character = dau_guigues_iv_albon start_date = 1132.1.1 end_date = 1142.1.1 regnal_number = 4 }
-			ruler_term = { character = dau_guigues_v_albon start_date = 1142.1.1 end_date = 1162.7.9 regnal_number = 5 }
-			ruler_term = { character = dau_beatrix_albon start_date = 1162.7.29 end_date = 1183.9.1  regnal_number = 1 }
-			ruler_term = {
-				character = dau_beatrix_albon start_date = 1183.9.1  end_date = 1192.8.25 regnal_number = 1
-				character = bur_hugues_iii_burgundian start_date = 1183.9.1 end_date = 1192.8.25 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = dau_beatrix_albon start_date = 1192.8.25 end_date = 1203.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = dau_beatrix_albon start_date = 1203.1.1 end_date = 1228.12.16 regnal_number = 1
-				character = dau_andre_dauphin_bourgogne start_date = 1203.1.1 end_date = 1228.12.16 regnal_number = 6 regnal_name = name_wigo
-			}
-			ruler_term = { character = dau_andre_dauphin_bourgogne start_date = 1228.12.16 end_date = 1237.3.14 regnal_number = 6 regnal_name = name_wigo }
-			ruler_term = { character = dau_guigues_vii_viennois start_date = 1237.3.14 end_date = 1269.1.1 regnal_number = 7 }
-			ruler_term = { character = dau_jean_i_viennois start_date = 1269.1.1 end_date = 1282.9.24 regnal_number = 1 }
-
-			ruler_term = { character = dau_humbert_i_de_la_tour start_date = 1282.9.24 end_date = 1307.4.16 regnal_number = 1 }
-			ruler_term = { character = dau_jean_ii_de_la_tour start_date = 1307.4.16 end_date = 1319.3.5 regnal_number = 2 }
-			ruler_term = { character = dau_guigues_viii_de_la_tour start_date = 1319.3.5 end_date = 1333.7.28 regnal_number = 8 }
-			ruler_term = { character = dau_humbert_ii_de_la_tour start_date = 1333.7.28 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_wigo = 8
-				name_beatrix = 1
-				name_hugh = 1
-				name_john = 2
-				name_humbert = 2
-			}
-		}
-
-		tolerated_cultures = {
-			vivaro_alpine
-			auvergnat
-		}
-
-		country_rank = rank_county
-		capital = grenoble
 	}
 
 	#Orange
 	ORA = {
-		own_control_core = {
-			orange
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = ora_raymond_ii_orange
-
-			ruler_term = { character = ora_bertrand_i_orange start_date = 1173.5.10 end_date = 1180.10.31 regnal_number = 1 }
-			ruler_term = { character = ora_guillaume_i_orange start_date = 1180.10.31 end_date = 1218.1.1 regnal_number = 1 }
-			ruler_term = { character = ora_guillaume_ii_orange start_date = 1218.1.1 end_date = 1239.11.1 regnal_number = 2 }
-			ruler_term = { character = ora_raymond_i_orange start_date = 1239.11.1 end_date = 1282.1.1 regnal_number = 1 }
-			ruler_term = { character = ora_bertrand_ii_orange start_date = 1282.1.1 end_date = 1314.7.21 regnal_number = 2 }
-			ruler_term = { character = ora_raymond_ii_orange start_date = 1314.7.21 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_bertrand = 2
-				name_william = 2
-				name_raymond = 2
-			}
-		}
-
-		tolerated_cultures = {
-			auvergnat
-		}
-
-		country_rank = rank_county
-		capital = orange
 	}
 
 
@@ -35314,35 +35204,7 @@ countries = {
 		capital = aosta
 	}
 
-	WDE = {  # Waldeck (North Germany)
-		own_control_core = {
-			korbach
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = wde_henry_iv_von_waldeck
-
-			ruler_term = { character = wde_adolph_i_von_waldeck start_date = 1214.1.1 end_date = 1267.1.1 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iii_von_waldeck start_date = 1267.1.1 end_date = 1270.10.3 regnal_number = 3 }
-			ruler_term = { character = wde_adolph_ii_von_waldeck start_date = 1270.10.3 end_date = 1302.12.13 regnal_number = 2 }
-			ruler_term = { character = wde_otto_i_von_waldeck start_date = 1302.12.13 end_date = 1305.11.11 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iv_von_waldeck start_date = 1305.11.11 regnal_number = 4 }
-
-			regnal_numbers = {
-				name_adolf = 2
-				name_henry = 4
-				name_otto = 1
-			}
-		}
-		tolerated_cultures = {
-			angrian
-		}
-		country_rank = rank_county
-		capital = korbach
+	WDE = { 
 	}
 
 	RBG = {  # Rietberg (North Germany)
@@ -37816,40 +37678,7 @@ countries = {
 		capital = hersfeld
 	}
 
-	HES = {	#Hesse
-		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg alsfeld
-			giessen melsungen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = hes_heinrich_ii_hesse
-
-			ruler_term = {	character = hes_otto_i_hesse start_date = 1308.1.1 end_date = 1328.1.17 regnal_number = 1	}
-			ruler_term = {	character = hes_heinrich_ii_hesse start_date = 1328.1.17 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_otto = 1
-				name_henry = 2
-			}
-			reforms = {
-				landgraviate
-			}
-		}
-
-		tolerated_cultures = {
-			angrian
-		}
-
-		country_rank = rank_county
-		capital = kassel
-		dynasty = hessen_dynasty
+	HES = {
 	}
 
 	PDB = {	#Paderborn
@@ -37877,31 +37706,7 @@ countries = {
 		capital = paderborn
 	}
 
-	ZIG = {	#Ziegenhain
-		own_control_core = {
-			ziegenhain
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = zig_johann_i_ziegenhain
-			ruler_term = {	character = zig_gottfried_vi_ziegenhain start_date = 1272.1.1 end_date = 1304.11.30 regnal_number = 6	}
-			ruler_term = {	character = zig_johann_i_ziegenhain start_date = 1304.11.30 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_godfrey = 6
-				name_engelbert = 1
-				name_john = 1
-			}
-		}
-		country_rank = rank_county
-		capital = ziegenhain
-		dynasty = ziegenhain_dynasty
+	ZIG = {
 	}
 
 	HNA = {
@@ -38108,35 +37913,8 @@ countries = {
 		dynasty = mark_dynasty
 	}
 
-	WTG = {	#Wittgenstein
-		own_control_core = {
-			berleburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = wtg_werner_iii_wittgenstein
-			ruler_term = {	character = wtg_werner_iii_wittgenstein start_date = 1277.1.1 end_date = 1322.1.1 regnal_number = 3	} #It isn't really known who actually ruled in this period. For simplicity sake we assume it was Werner
-			ruler_term = {	character = wtg_siegfried_ii_wittgenstein start_date = 1322.7.18 regnal_number = 2	}
-
-			regnal_numbers = {
-				Werner = 3
-				Siegfried = 2
-				Wiedekind = 1
-			}
-		}
-
-		tolerated_cultures = {
-		}
-
-		country_rank = rank_county
-		capital = berleburg
-		dynasty = wittgenstein_dynasty
+	WTG = {
+		
 	}
 
 	DTM = { #Dortmund
